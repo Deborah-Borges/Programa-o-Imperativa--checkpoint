@@ -1,4 +1,12 @@
 /*
+Integrantes do grupo (mesa 5):
+Andréa Santos
+Deborah Borges
+Luíza Maria 
+Isaque Rodrigues
+Guilherme Henrique
+
+
 - Precisamos desenvolver um menu para um microondas super veloz, onde teremos 5 opções de comida com seus respectivos tempos pré-definidos. 
 
       1 - Pipoca – 10 segundos (padrão);
@@ -33,11 +41,11 @@ const time = parseInt(readlineSync.question(`digite o tempo`))
 
 switch (food) {
     case 1:
-        if (time > 2 * 10) { 
+        if (time >= 2 * 10) { 
             console.log('a comida queimou')
         } else if (time < 10) {
             console.log('tempo insuficiente')
-        } else if (time > 3 * 10) {
+        } else if (time >= 3 * 10) {
             console.log('kabumm')
         } else {
             console.log('prato pronto, bom apetite')
