@@ -41,12 +41,12 @@ const time = parseInt(readlineSync.question(`digite o tempo`))
 
 switch (food) {
     case 1:
-        if (time >= 2 * 10) { 
-            console.log('a comida queimou')
+        if (time >= 3 * 10) { 
+            console.log('kabumm')
         } else if (time < 10) {
             console.log('tempo insuficiente')
-        } else if (time >= 3 * 10) {
-            console.log('kabumm')
+        } else if (time >= 2 * 10) {
+            console.log('a comida queimou')
         } else {
             console.log('prato pronto, bom apetite')
         }
