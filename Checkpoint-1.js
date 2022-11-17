@@ -52,45 +52,45 @@ switch (food) {
         }
         break;
     case 2:
-        if (time > 2 * 8) { 
-            console.log('a comida queimou')
+        if (time > 3 * 8) { 
+            console.log('kabumm')
         } else if (time < 8) {
             console.log('tempo insuficiente')
-        } else if (time > 3 * 8) {
-            console.log('kabumm')
+        } else if (time > 2 * 8) {
+            console.log('a comida queimou')
         } else {
             console.log('prato pronto, bom apetite')
         }
         break;
     case 3:
-        if (time > 2 * 15) { 
-            console.log('a comida queimou')
+        if (time > 3 * 15) { 
+            console.log('kabumm')
         } else if (time < 15) {
             console.log('tempo insuficiente')
-        } else if (time > 3 * 15) {
-            console.log('kabumm')
+        } else if (time > 2 * 15) {
+            console.log('a comida queimoum')
         } else {
             console.log('prato pronto, bom apetite')
         }
         break;
     case 4:
-        if (time > 2 * 12) { 
-            console.log('a comida queimou')
+        if (time > 3 * 12) { 
+            console.log('kabumm')
         } else if (time < 12) {
             console.log('tempo insuficiente')
-        } else if (time > 3 * 12) {
-            console.log('kabumm')
+        } else if (time > 2 * 12) {
+            console.log('a comida queimou')
         } else {
             console.log('prato pronto, bom apetite')
         }
         break;
     case 5:
-        if (time > 2 * 8) { 
-            console.log('a comida queimou')
+        if (time > 3 * 8) { 
+            console.log('kabumm')
         } else if (time < 8) {
             console.log('tempo insuficiente')
-        } else if (time > 3 * 8) {
-            console.log('kabumm')
+        } else if (time > 2 * 8) {
+            console.log('a comida queimou')
         } else {
             console.log('prato pronto, bom apetite')
         }
